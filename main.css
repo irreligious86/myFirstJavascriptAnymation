@@ -1,58 +1,32 @@
-animBtn {
-    border: 1px solid red;
-    background: #000;
-    color: khaki;
-    margin-bottom: 25px;
+
+
+.bar-graph {
+    background-color:rgba(250, 250, 0, 0.6);
+    border: 1px solid black;
+
 }
 
-.borderField {
-    position: relative;
-    border: 2px solid maroon;
-    background: cyan;
-    width: 600px;
-    height: 600px;
+.canvas {
+    width: 70%;
+    background-color:rgba(250, 0, 0, 0.6);
+    border: 1px solid black;
+
 }
 
-.square {
-    border-radius: 50%;
-    border: 15px solid blue;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    
-    top: 0;
-    left: 0;
-}
+.bg-red {
+    background-color:rgba(250, 0, 0, 0.6);
+    border: 1px solid black;
 
-.square2 {
-    border-radius: 50%;
-    border: 15px solid red;
-    width: 15px;
-    height: 15px;
-    position: absolute;
+};
 
-    top: 555px;
-    left: 555px;
-}
+.bg-green {
+    background-color:rgba(79, 250, 0, 0.6);
+    border: 1px solid black;
 
-.square3 {
-    border-radius: 50%;
-    border: 15px solid green;
-    width: 15px;
-    height: 15px;
-    position: absolute;
+};
 
-    top: 555px;
-    left: 0;
-}
+.bg-blue {
+    background-color:rgba(0, 46, 250, 0.6);
+    border: 1px solid black;
 
-.square4 {
-    border-radius: 50%;
-    border: 15px solid yellow;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    
-    top: 0;
-    left: 555px;
-}
+};
